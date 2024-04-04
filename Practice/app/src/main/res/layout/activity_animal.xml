@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2020039008 배용호"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작하겠습니까?"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="시작함"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupPets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <RadioButton
+            android:id="@+id/btn_dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강아지"/>
+        <RadioButton
+            android:id="@+id/btn_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고양이"/>
+        <RadioButton
+            android:id="@+id/btn_rabbit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="토끼"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonSelectComplete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택완료"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/imageViewPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</LinearLayout>

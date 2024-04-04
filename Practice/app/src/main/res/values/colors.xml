@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="button_color_1">#FF5722</color> <!-- 오렌지 -->
+    <color name="button_color_2">#4CAF50</color> <!-- 녹색 -->
+    <color name="button_color_3">#2196F3</color> <!-- 파랑 -->
+    <color name="button_color_4">#9C27B0</color> <!-- 보라 -->
 </resources>
